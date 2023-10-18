@@ -1,0 +1,97 @@
+h1 {
+    text-align: center;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: rgb(214, 210, 210);
+    background-color: #1b1b32;
+    color: rgb(0, 98, 51);
+ }
+
+ .hamburger-menu {
+    display: block;
+    border: 1px solid black; /* Specify border style */
+    cursor: pointer; /* Use "pointer" for the cursor style */
+}
+  
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    box-shadow: -5px 10px 9px rgb(25, 67, 25);
+ }
+  
+  /* Navigation styles */
+.nav-links {
+    list-style: none;
+    display: flex;
+ }
+  
+.nav-links li {
+    margin-right: 20px;
+ }
+  
+.nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 200px; /* Adjust this value to position the menu correctly */
+      left: 0;
+      width: 100%;
+ }
+  
+.nav-links.active {
+      display: flex;
+ }
+
+h2 {
+    text-align: left;
+    color: rgb(0, 98, 51);
+ }
+
+ body{
+     width: 100%;
+     height: 100vh;
+     margin: 0px;
+     background-color: #1b1b32;
+ }
+
+ .style {
+     background-color: #1b1b32;
+     padding: 10px 0;
+ }  
+
+ .marker {
+     width: 200px;
+     height: 25px;
+     margin: 10px auto;
+ }
+ 
+ .red {
+     background: linear-gradient(90deg, rgb(30, 30, 79), rgb(13, 51, 13));
+     box-shadow: -5px, -5px, 10px, 9px rgb(25, 67, 25);
+     
+ }
+ hr{
+    height: 6px;
+    background-color:  #1b1b32;
+    border-color: rgb(25, 67, 25);
+ }
+ section {
+     background-color: #1b1b32;
+     color:white;
+     text-align: center;
+ }
+ /* FOOTER */
+ footer {
+    font-size: 25px;
+    color:whitesmoke;
+ }
+ a {
+     color: whitesmoke;
+     text-decoration: none;
+ }
+ a:hover{
+     color: rgb(6, 6, 6);
+ }
